@@ -1,5 +1,5 @@
 import './App.css'
-import Navbar from './NavBar';
+import Navbar from './Navbar';
 import Todo from './Todo'
 import {Routes,Route, replace,} from "react-router-dom";
 import Home from './Home';
