@@ -10,7 +10,7 @@ function Signup() {
 
   const handleSignup = async () => {
     try {
-      const res = await axios.post("http://localhost:3000/api/auth/signup", {
+      const res = await axios.post("https://server-4lac.onrender.com/api/auth/signup", {
         username,
         password,
       });

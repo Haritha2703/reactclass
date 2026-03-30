@@ -6,7 +6,7 @@ import axios from 'axios';
 function Todo() {
   const [tasks, setTasks] = useState([]);
   const [newTask,setNewTask] = useState("");
-  const URL = "http://localhost:3000/tasks";
+  const URL = "https://server-4lac.onrender.com/tasks";
   
   // useEffect(()=> {console.log("UseEffect called!")});
   // useEffect(()=> {console.log("UseEffect called!")},[tasks]);
